@@ -1,12 +1,12 @@
 ![logo](./ui-map-parser.png) Library that helps you with storing ui elements in files
-======
+======================================================================================
 
 HOWTO Install:
-------
+---------------
 - `pip install ui-map-parser`
 
 HOWTO Use:
-------
+-----------
 First you should create a folder where you will store ini files with selectors.
 In this folder create common.ini file.
 Now you can create elements in this file or create another ini files which will represent pages.

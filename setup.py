@@ -22,6 +22,7 @@ if __name__ == '__main__':
         version='1.0.0',
         description='UI map parser.',
         long_description=package_env('README.md'),
+        long_description_content_type='text/markdown',
         author='Max Biloborodko',
         author_email='f1ashhimself@gmail.com',
         packages=['ui_map_parser'],
