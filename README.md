@@ -92,13 +92,13 @@ Also you can specify selectors for different languages:
 [SomeElement]
 type=xpath
 selector=//div
-en=[@text="some en text"]
-es=[@text="some es text"]
+en=[text()="some en text"]
+es=[text()="some es text"]
 ```
 
 and then specify language when initializing UIMapParser:
 ```python
 ui_map_parser = UIMapParser(ini_files_folder, language='en')
 selector_type, selector = ui_map_parser.parse_element('SomeElement')
-# selector will be equal to "//div[@text="some en text"]"
+# selector will be equal to "//div[text()="some en text"]"
 ```
