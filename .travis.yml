@@ -3,5 +3,5 @@ python:
     - "3.7"
     - "3.8"
 install:
-  - pip install pytest pyhamcrest
+  - pip install pytest pyhamcrest .
 script: pytest
