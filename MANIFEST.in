@@ -1,0 +1,2 @@
+include README.md LICENSE
+recursive-include ui_map_parser *
